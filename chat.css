@@ -315,3 +315,19 @@ p br {
 body {
     color: #6d6767;
 }
+
+/*Ajustes*/
+.balloon-operador li + li, 
+.balloon-cliente li:first-child,
+.balloon-operador > li {
+        background-color: #f65f00;
+            color: #fff;
+}
+
+.balloon-cliente::before {
+        border-left: 10px solid #f65f00;
+}
+
+.balloon-operador::before {
+        border-right: 10px solid #f65f00;
+}
