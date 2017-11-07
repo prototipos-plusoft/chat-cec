@@ -94,7 +94,7 @@ textarea {
 
 header button {
     position: absolute;
-    right: 55px;
+    right: 20px;
     top: 35px;
     /* padding: 0 7px !important; */
     /* height: 22px; */
@@ -334,4 +334,17 @@ body {
 
 .balloon-operador::before {
         border-right: 10px solid #f3f3f3;
+}
+
+.alert-danger {
+    background-color: transparent;
+    border: 1px solid #d64a60 !important;
+}
+
+.btn-danger,
+.btn-danger:hover {
+    color: #000;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
 }
