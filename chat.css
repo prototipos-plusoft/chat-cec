@@ -318,8 +318,7 @@ body {
 
 /*Ajustes*/
 .balloon-operador li + li, 
-.balloon-cliente li:first-child,
-.balloon-operador > li {
+.balloon-cliente li:first-child {
         background-color: #f65f00;
             color: #fff;
 }
@@ -328,6 +327,11 @@ body {
         border-left: 10px solid #f65f00;
 }
 
+.balloon-operador > li {
+    background-color: #f3f3f3;
+    color: #fff;
+}
+
 .balloon-operador::before {
-        border-right: 10px solid #f65f00;
+        border-right: 10px solid #f3f3f3;
 }
